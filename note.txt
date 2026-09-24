@@ -1,0 +1,46 @@
+https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing
+
+Calculate voltage divider circuit value::
+https://www.allaboutcircuits.com/tools/voltage-divider-calculator/
+
+
+Resistor colour code::
+https://www.calculator.net/resistor-calculator.html
+
+
+To calculate current limiting resistor value::
+https://www.allaboutcircuits.com/tools/led-resistor-calculator/
+
+
+using micropython:
+https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/
+
+using platform io :
+https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino
+
+using Espressif IoT Development Framework:
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html
+
+using Arduino ide:
+https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+
+/dev/ttyACM0
+pip install pyserial
+A fatal error occurred: Could not open /dev/ttyACM0, the port doesn't exist
+sudo adduser $USER $(stat --format="%G" /dev/ttyACM0 )
+
+A fatal error occurred: Could not open /dev/ttyACM0, the port doesn't exist
+Failed uploading: uploading error: exit status 2
+
+Bus 003 Device 009: ID 1a86:55d4 QinHeng Electronics USB Single Serial
+
+
+sudo usermod -a -G dialout $USER
+
+sudo chmod 777 -R /dev/ttyACM0
+
+
+sudo chmod 777 -R /dev/ttyUSB0
+
+http://192.168.43.160/
+
