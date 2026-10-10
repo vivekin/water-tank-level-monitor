@@ -5,7 +5,7 @@
 WebServer server ( 80 );
 
 const char* ssid     = "MEPPURATH";
-const char* password = "06111960";
+const char* password = "*****";
 
   //If the sensor does not work, try the 0x77 address as well
 // int LEDPIN = 2;
