@@ -1,10 +1,3 @@
-    /////////////////////////////////////////////////////////////////
-   //         ESP32 Web Server Project  v1.00                     //
-  //       Get the latest version of the code here:              //
- //         http://educ8s.tv/esp32-web-server                   //
-/////////////////////////////////////////////////////////////////
-
-
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>  //https://github.com/bbx10/WebServer_tng
@@ -12,7 +5,7 @@
 WebServer server ( 80 );
 
 const char* ssid     = "MEPPURATH";
-const char* password = "06111960";
+const char* password = "*****";
 
 //https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home
 
