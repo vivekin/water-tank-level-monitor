@@ -1,10 +1,3 @@
-    /////////////////////////////////////////////////////////////////
-   //         ESP32 Web Server Project  v1.00                     //
-  //       Get the latest version of the code here:              //
- //         http://educ8s.tv/esp32-web-server                   //
-/////////////////////////////////////////////////////////////////
-
-
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WebServer.h>  //https://github.com/bbx10/WebServer_tng
